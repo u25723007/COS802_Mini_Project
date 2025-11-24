@@ -7,7 +7,8 @@ Three approaches tested here:
 # Dependancies
 Language: python
 
-Libraries: transformers, googletrans,
+Libraries: transformers, googletrans, pandas, datasets, numpy, plotly, torch, imblearn, sklearn, matplotlib
+
 
 # Datasets
 [Sesotho News Healines Dataset ](https://zenodo.org/records/10531959/files/NewsSA.txt?download=1)
@@ -19,7 +20,7 @@ To run the script, place the file in the same location as the python script and 
 1. If you are running from a local machine, comment this line in the script file_path = "/content/drive/MyDrive/NewsSA.txt"
 2. if you are running on google colab, confirm that this is the correct location for the dataset : file_path = "/content/drive/MyDrive/NewsSA.txt"
      othewise modify the path to match your location.
-
+these line are loacted at the begging of the file, immediatly after importing libraries
    Then press run all button on the script. Everything will run.
    Lookout for model training pop-ups https://wandb.ai/ for model training
    
